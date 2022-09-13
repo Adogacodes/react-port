@@ -8,7 +8,7 @@ const NavigationDots = ({ active }) => {
                     className="app__navigation-dot"
                     style={active === item ? { backgroundColor: '#313BAC'} : { }}
                     
-                    />
+                />
             ))}
         </div>
      );
