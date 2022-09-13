@@ -30,7 +30,7 @@ const About = () => {
                         <img src={about.imgUrl} alt={about.title} />
                         <h2 className="bold-text" style={{marginTop: 20}}>{ about.title }</h2>
                         <p className="p-text" style={{marginTop: 10}}>{ about.description }</p>
-                        <a href='https://www.google.com' target='_blank' rel='noreferrer'><button>RESUME</button></a>
+                        <a href='#' target='_blank'><button>RESUME</button></a>
 
                     </motion.div>
                 ))}
