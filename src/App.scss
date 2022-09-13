@@ -168,6 +168,14 @@
 
         transition: background-color 0.2s ease-in-out;
 
+        span {
+            height: 1px;
+            width: 1px;
+            position: absolute;
+            overflow: hidden;
+            top: -10px;
+        }
+
         &:hover {
             background-color: var(--secondary-color);
         }
@@ -177,6 +185,8 @@
             height: 20px;
         }
     }
+
+
 }
 
 @media screen and (max-width: 500px) {

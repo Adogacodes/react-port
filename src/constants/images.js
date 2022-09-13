@@ -38,7 +38,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 
-export default{
+export default {
     bootstrap,
     email,
     mobile,
@@ -76,5 +76,5 @@ export default{
     bolt,
     nb,
     skype,
-    spotify,
+    spotify
 };

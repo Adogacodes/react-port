@@ -14,7 +14,7 @@ const portfolio = [
 ]
 
 const Work = () => {
-    const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1});
+    
 
 
     return ( 
@@ -22,7 +22,7 @@ const Work = () => {
             <h2 className="head-text">My <span>Portfolio</span></h2> 
 
             <motion.div
-                animate={animateCard}
+                animate={{y: 0, opacity: 1}}
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className="app__work-portfolio"
             >
