@@ -1,6 +1,6 @@
-import { useState } from 'react';
 import { AiFillEye, AiFillGithub } from 'react-icons/ai';
 import { motion } from 'framer-motion';
+import { useState } from 'react';
 
 import { AppWrap, MotionWrap } from '../../wrapper'
 import './Work.scss';
@@ -14,6 +14,7 @@ const portfolio = [
 ]
 
 const Work = () => {
+    const [animateCard, setAnimateCard] = useState({y: 0, opacity: 1});
     
 
 
@@ -22,7 +23,7 @@ const Work = () => {
             <h2 className="head-text">My <span>Portfolio</span></h2> 
 
             <motion.div
-                animate={{y: 0, opacity: 1}}
+                animate={animateCard}
                 transition={{ duration: 0.5, delayChildren: 0.5 }}
                 className="app__work-portfolio"
             >
